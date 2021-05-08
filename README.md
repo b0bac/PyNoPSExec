@@ -1,7 +1,7 @@
 # PyNoPSExec
 **A Lateral Movement Tool Learned From SharpNoPSExec  --  Twitter: @juliourena  根据@juliourena大神的SharpNOPsExec项目改写的横向移动工具** 
-+ Platform(平台) Windows 10
-+ Language（语言）Python2
++ Platform(平台): Windows 10
++ Language(语言): Python2
 
 ## 使用方法
 
