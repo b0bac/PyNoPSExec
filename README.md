@@ -11,7 +11,7 @@
 
 
 ```bash
-net use \\192.168.23.107 "TestPassword@123" /user:testuser
+net use \\192.168.23.107\admin$ "TestPassword@123" /user:testuser
 python PyNoPSexec.py  -t 192.168.23.107 -u testuser -p "TestPassword@123" -d test.sec.com -s AppMgmt -e "c:\\windows\\system32\\cmd.exe /c echo hackedbybobac > c:\\bobac.txt"
 ```
 ![image](https://user-images.githubusercontent.com/11972644/117527553-82264700-afff-11eb-9850-45ecbd997f98.png)
