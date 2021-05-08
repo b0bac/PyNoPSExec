@@ -7,6 +7,12 @@
 + 没有运行的手动启动或禁止启动的服务
 + 服务没有依赖项
 + 该脚本没有提供服务二进制文件路径恢复功能，需要先记好对应路径，然后可以再次运行该脚本进行恢复，避免服务出问题
++ 关于查询服务可以使用impacket examples中的services.py 或者对应的exe程序 
+```bash
+.\services.exe sec/testuser:TestPassword@123@192.168.23.107 config -name AppMgmt
+```
+![image](https://user-images.githubusercontent.com/11972644/117533063-371b2c80-b01d-11eb-918b-b36c820e6d7c.png)
+
 ## 使用方法  
 
 
